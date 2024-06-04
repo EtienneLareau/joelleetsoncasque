@@ -2,15 +2,15 @@
   <div class="cmon">
     <div class="full-btm">
       <div class="copyright">
-
+        <!-- 
         <p class="copytxt">
           <a href="/la-clinique/politique-de-confidentialite/">Politique de confidentialité</a> | <a
             href="/la-clinique/conditions-d-utilisation/">Conditions d'utilisation</a> | <a
             href="/pharmacie/">Pharmacie</a>
-          <!-- | <a href="/medias/">Médias</a> -->
-        </p>
+          | 
+        </p> -->
         <p class="copytxt pale">
-          Clinique IPS de Quartier - Tous droits réservés
+          Joëlle et son casque - Tous droits réservés
         </p>
       </div>
     </div>

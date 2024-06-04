@@ -30,7 +30,7 @@ import SuperTopBanner from '~/components/UI/SuperTopBanner.vue'
     </main>
 
     <footer>
-      <!-- <Foo /> -->
+      <Footer />
     </footer>
   </div>
 </template>
@@ -39,13 +39,13 @@ import SuperTopBanner from '~/components/UI/SuperTopBanner.vue'
 import SuperTopBanner from '~/components/UI/SuperTopBanner.vue'
 import Nav from '~/components/UI/Nav'
 import SwitchLang from '~/components/UI/SwitchLang'
-import Foo from '~/components/blocks/Foo'
+import Footer from '~/components/blocks/Footer.vue'
 
 export default {
   components: {
     Nav,
     SwitchLang,
-    Foo,
+    Footer,
     SuperTopBanner,
   },
 
