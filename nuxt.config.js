@@ -158,6 +158,8 @@ export default {
   css: ['~/css/global.css', '~/assets/css/main.css'],
   /*
 
+
+  
    ** Build configuration
    */
   build: {},
