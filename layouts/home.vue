@@ -25,6 +25,8 @@ import SuperTopBanner from '~/components/UI/SuperTopBanner.vue'
       </a>
     </div> -->
 
+
+
     <main class="content">
       <nuxt />
     </main>
