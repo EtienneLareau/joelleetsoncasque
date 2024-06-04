@@ -24,7 +24,7 @@ export default {
         content: 'La page web de Joëlle White',
       },
       { name: 'robots', content: 'index,follow' },
-      { name: 'theme-color', content: '#7faa86' },
+      { name: 'theme-color', content: '#333333' },
       { name: 'generator', content: 'VueJs' },
 
       // {
