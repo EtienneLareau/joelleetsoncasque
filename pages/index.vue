@@ -1,6 +1,7 @@
 <template>
   <section>
     <HeroBan />
+    <JoPhoto />
     <!-- <Hero /> -->
     <!-- <Intro /> -->
     <!-- <Team /> -->
@@ -23,6 +24,7 @@ import Map from '~/components/blocks/Map.vue'
 import CommentPrendreRDV from '~/components/blocks/CommentPrendreRDV.vue'
 import Borne from '~/components/blocks/Borne.vue'
 import HeroBan from '~/components/HeroBan.vue'
+import JoPhoto from '~/components/blocks/JoPhoto.vue'
 
 const query = `
   {
@@ -41,6 +43,7 @@ export default {
     Map,
     CommentPrendreRDV,
     Borne,
+    JoPhoto,
   },
 
   asyncData({ $sanity }) {
