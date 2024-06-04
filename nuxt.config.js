@@ -27,30 +27,31 @@ export default {
       { name: 'theme-color', content: '#333333' },
       { name: 'generator', content: 'VueJs' },
 
-      // {
-      //   name: 'apple-mobile-web-app-title',
-      //   content: 'Clinique IPS de Quartier',
-      // },
-      // { name: 'application-name', content: 'Clinique IPS de Quartier' },
+      {
+        name: 'apple-mobile-web-app-title',
+        content: "Joëlle White et son casque d'or",
+      },
+      { name: 'application-name', content: "Joëlle White et son casque d'or" },
       // { property: 'fb:app_id', content: '100089456949770' },
-      // { property: 'og:url', content: 'https://cliniqueipsdequartier.com' },
-      // { property: 'og:type', content: 'website' },
-      // { property: 'og:title', content: 'Clinique IPS de Quartier | Clinique médicale privée' },
-      // { property: 'og:site_name', content: 'Clinique IPS de Quartier | Clinique médicale privée' },
-      // { property: 'og:locale', content: 'fr_CA' },
-      // {
-      //   property: 'og:description',
-      //   content:
-      //     'La Clinique IPS de Quartier est la première clinique médicale d’infirmières praticiennes spécialisées (IPS) privée, hors RAMQ, sans médecin, à Drummondville. Nous offrons des soins de santé divers pour toute la famille.',
-      // },
-      // {
-      //   property: 'og:image',
-      //   content:
-      //     'https://cliniqueipsdequartier.com/_nuxt/img/highfive.ea673d5.jpg',
-      // },
-      // {property:"og:image:alt", content:"Un highfive de plusieurs mains"},
-      // { name: 'msapplication-TileImage', content: '/mstile-150x150.png' },
-      // { name: 'msapplication-TileColor', content: '#ffc40d' },
+      { property: 'og:url', content: 'https://joelleetsoncasque.ca' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:title', content: "Joëlle White et son casque d'or" },
+      {
+        property: 'og:site_name',
+        content: "Joëlle White et son casque d'or",
+      },
+      { property: 'og:locale', content: 'fr_CA' },
+      {
+        property: 'og:description',
+        content: "Joëlle White et son casque d'or",
+      },
+      {
+        property: 'og:image',
+        content: 'https://joelleetsoncasque.ca/_nuxt/img/IMG_2998.4248e58.jpg',
+      },
+      { property: 'og:image:alt', content: "Joëlle White et son casque d'or" },
+      { name: 'msapplication-TileImage', content: '/mstile-150x150.png' },
+      { name: 'msapplication-TileColor', content: '#ffc40d' },
     ],
 
     link: [
