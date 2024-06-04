@@ -53,7 +53,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://cliniqueipsdequartier.com/' + this.$route.path
+          href: 'https://joelleetsoncasque.ca/' + this.$route.path
         }
       ]
     }
