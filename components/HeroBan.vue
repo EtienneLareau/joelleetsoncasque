@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="masthead" role="img" aria-label="Image Description">
+    <section class="masthead" aria-label="Image Description">
       <h1>
         Joelle et son casque
       </h1>
