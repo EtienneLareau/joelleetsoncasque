@@ -1,0 +1,29 @@
+{
+  "message": "Hello!",
+  "home": "Home",
+  "welcome": "Welcome to the Polyclinique du Quartier",
+  "welcometxt": "The Polyclinique du Quartier aims to offer a full range of health services, accessible to citizens.",
+  "welcometxtun": "Formerly the Robinson Medical Center, the new polyclinic will reside at a brand new area called ",
+  "welcometxtdeux": "La nouvelle polyclinique regroupera une quinzaine de médecins de famille et une quinzaine de médecins spécialistes.",
+  "medecin": "Need a doctor?",
+  "needdoctor": "To have access to a family doctor who agrees to new patients, register at the access point to a Family doctor.",
+  "register": "Sign up",
+
+  "ouvrirlacarte": "Open the map",
+  "adresse": "Address",
+  "openinghours": "Business hours",
+  "joindre": "Reach us",
+  "monday": "Monday",
+  "tuesday": "Tuesday",
+  "wednesday": "Wednesday",
+  "thursday": "Thursday",
+  "friday": "Friday",
+  "saturday": "Saturday",
+  "sunday": "Sunday",
+  "closed": "Closed",
+
+  "rdv_title": "Schedule an appointment, when you need it",
+  "rdv_txt": "Schedule an appointment 24/7 from your computer, tablet or cell phone. Schedule an appointment online with your family doctor now.",
+  "rdv_button": "Patient portal",
+  "vision_button": "Notre vision"
+}

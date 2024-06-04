@@ -1,0 +1,377 @@
+:root {
+  /* Official */
+  --main: #206130;
+  --main-pale: #b0d1a3;
+  --main-dark-2: #7faa86;
+  --main-pale-2: #cfe3c7;
+  --beige: #e5dcd2;
+  --bleu: #032442;
+  /* Non-Official */
+  --hover: #333333;
+  --main-bg: #eef7f0;
+  --main-grey: #424242;
+  --pale-grey: #e7e7e7;
+  --dark: #2c6c4e;
+  --dark-brown: #6b452d;
+  --very-dark: #09140c;
+  --fond: #5fbd751d;
+  /* Official */
+  --audrey-normal: 'Audrey-Normal', sans-serif;
+  --audrey-medium: 'Audrey-Medium', sans-serif;
+  --audrey-bold: 'Audrey-Bold', sans-serif;
+  --mont: 'montserrat', sans-serif;
+  /* Non-Official */
+  --font: 'ivypresto-display', serif;
+  --sophia: 'sofia-pro', sans-serif;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+@font-face {
+  font-family: 'Audrey-Normal';
+  src: local('Audrey-Normal'),
+    url('~assets/fonts/Audrey-Normal.otf') format('truetype');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Audrey-Medium';
+  src: local('Audrey-Medium'),
+    url('~assets/fonts/Audrey-Medium.otf') format('truetype');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Audrey-Bold';
+  src: local('Audrey-Bold'),
+    url('~assets/fonts/Audrey-Bold.otf') format('truetype');
+  font-display: fallback;
+}
+
+/* CSS RESET BY ANDY BELL */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+button {
+  transition: 200ms;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+blockquote {
+  border-left: 6px solid var(--main-pale);
+  margin-left: 1rem !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  padding-left: 1rem !important;
+  padding-top: 5px !important;
+  padding-bottom: 8px !important;
+  font-family: var(--sophia);
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* \\\\\\\\\\\\\\\\ End of Reset \\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+:focus {
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Audrey-Normal', Fallback, sans-serif;
+}
+
+a,
+p,
+li,
+label,
+input,
+button,
+h3,
+legend {
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.15rem;
+}
+
+p {
+  margin-bottom: 28px;
+}
+
+.button-un {
+  background-color: var(--main);
+  padding: 20px 35px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 100px;
+  /* border: 1px solid #2c6c4e; */
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  transition: 200ms;
+  cursor: pointer;
+  box-shadow: 0;
+  /* font-weight: 600; */
+  font-style: normal;
+}
+
+.button-un:hover {
+  /* border-color:var(--main); */
+  box-shadow: 0 0.15em 0.25em rgb(0 0 0 / 25%);
+  background-color: #fff;
+  color: var(--main);
+}
+
+.center {
+  text-align: center;
+  color: var(--dark);
+}
+
+.green {
+  color: var(--main);
+  font-weight: 400;
+}
+
+.page-wrap {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 100px 5vw;
+  /* background-color: var(--main-bg); */
+}
+
+.page-wrap h2 {
+  color: var(--main);
+  font-size: 2.8rem;
+  padding: 0 0 40px;
+}
+
+.page-wrap h3 {
+  color: var(--main);
+  font-size: 2rem;
+  padding: 30px 0 20px;
+
+  font-weight: 400;
+}
+
+.page-wrap p,
+.page-wrap li {
+  font-size: 1.4rem;
+  padding: 0 0 28px;
+  max-width: 800px;
+}
+
+.page-wrap li {
+  padding-bottom: 20px;
+}
+
+.page-wrap li::marker {
+  color: var(--main-dark-2);
+}
+
+.serv-icon {
+  width: 100px;
+}
+
+.titre {
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: var(--main-dark-2);
+}
+
+.xp-titre {
+  font-weight: 600;
+}
+
+.service-contain p {
+  font-size: 1.4rem;
+}
+
+.round-up > button {
+  background-color: var(--main-dark-2);
+  border: 1px solid var(--main-dark-2);
+  color: #fff;
+  padding: 10px 25px 12px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu {
+  padding-top: 16px;
+}
+
+.added-fee {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 2rem;
+  max-width: 960px;
+  margin: 0 auto 150px;
+  padding: 30px 30px 30px;
+  background-color: var(--main-bg);
+  border: 10px;
+}
+
+.added-fee > div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.added-fee img {
+  max-height: 100px;
+  display: block;
+}
+
+.added-fee p {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1480px) {
+  p {
+    font-size: 1.2rem;
+  }
+
+  .titre {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--main-dark-2);
+  }
+
+  .service-contain p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 717px) {
+  h2 {
+    font-size: 8vw;
+  }
+
+  .button-un {
+    /* background-color: var(--main); */
+    padding: 10px 25px !important;
+
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    /* border: 1px solid #2c6c4e; */
+    font-size: 1.3rem;
+    transition: 200ms;
+    cursor: pointer;
+    box-shadow: 0;
+  }
+
+  .added-fee {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 1rem;
+    max-width: 960px;
+    margin: 0 auto 150px;
+    padding: 30px 30px 30px;
+    background-color: var(--main-bg);
+    border: 10px;
+  }
+
+  .added-fee > div:last-child {
+    display: flex;
+    align-items: center;
+  }
+
+  .added-fee img {
+    max-height: 40px;
+    display: block;
+    width: 40px;
+  }
+
+  .added-fee p {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+  }
+}

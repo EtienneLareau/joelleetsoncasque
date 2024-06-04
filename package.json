@@ -1,0 +1,41 @@
+{
+  "name": "ecommerce-frontend",
+  "version": "1.0.0",
+  "description": "Sanity frontend example for E-commerce in Vue.js",
+  "author": "kristoffer@sanity.io",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^7.0.3",
+    "@nuxtjs/robots": "^3.0.0",
+    "@nuxtjs/sanity": "^0.7.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/snipcart": "^1.1.1",
+    "@sanity/image-url": "^0.140.19",
+    "aos": "^2.3.4",
+    "nuxt": "^2.14.12",
+    "nuxt-gmaps": "^1.2.10",
+    "vue-slick-carousel": "^1.0.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nuxt-calendly": "^0.1.13",
+    "prettier": "^2.2.1"
+  }
+}

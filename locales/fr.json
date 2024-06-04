@@ -1,0 +1,36 @@
+{
+  "message": "Bonjour!",
+  "home": "Accueil",
+  "welcome": "Bienvenue à la Polyclinique du Quartier",
+  "welcometxt": "La Polyclinique du Quartier vise à offrir une gamme complète de services du domaine de la santé, accessibles aux citoyens.",
+  "welcometxtun":"Anciennement Centre médical Robinson, la nouvelle polyclinique résidera au tout nouveau carrefour baptisé ",
+  "welcometxtdeux": "La nouvelle polyclinique regroupera une quinzaine de médecins de famille et une quinzaine de médecins spécialistes.",
+  "medecin": "Besoin d'un médecin ?",
+  "needdoctor": "Pour avoir accès à un médecin de famille qui accepte de nouveaux patients, inscrivez-vous au guichet d'accès à un médecin de famille.",
+  "register": "Inscrivez-vous",
+
+  "ouvrirlacarte": "Ouvrir la carte",
+   "adresse": "Adresse",
+    "openinghours": "Heures d'ouverture",
+    "joindre": "Nous joindre",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "closed": "fermé",
+
+    "rdv_title": "Prenez rendez-vous, quand vous en avez besoin",
+    "rdv_txt": "Prenez rendez-vous 24 heures sur 24, 7 jours sur 7, à partir de votre ordinateur, de votre tablette ou de votre téléphone cellulaire. Prenez rendez-vous en ligne avec votre médecin de famille dès maintenant.",
+    "rdv_button": "Prendre rendez-vous",
+    "vision_button": "Notre vision",
+
+    "ask_question_title": "Qui dois-je consulter",
+    "ask_question_name": "Votre nom",
+    "ask_question_email": "Votre adresse courriel",
+    "ask_question_phone": "Votre numéro de téléphone",
+    "ask_question_need_info": "Je cherche des réponses :",
+    "ask_question_button": "Aidez-moi"
+}

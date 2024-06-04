@@ -1,0 +1,30 @@
+{
+  "message": "Hola!",
+  "home": "Casa",
+  "welcome": "Bienvenido a la Polyclinique du Quartier",
+  "welcometxt": "El Polyclinique du Quartier tiene como objetivo ofrecer una gama completa de servicios de salud, accesibles a los ciudadanos.",
+  "welcometxtun": "Anteriormente el Centro Médico Robinson, el nuevo policlínico residirá en el nuevo cruce de caminos llamado ",
+  "welcometxtdeux": "La nouvelle polyclinique regroupera une quinzaine de médecins de famille et une quinzaine de médecins spécialistes.",
+  "medecin": "¿Necesitas un doctor?",
+  "needdoctor": "Tener acceso a un médico de familia que esté de acuerdo con nuevos pacientes, registrarse en el punto de acceso a un Médico de familia.",
+  "register": "Solicitar",
+
+  "ouvrirlacarte": "Abrir el mapa",
+  "adresse": "Dirección",
+  "openinghours": "Horario de apertura",
+  "joindre": "Contáctenos",
+  "monday": "Lunes",
+  "tuesday": "Martes",
+  "wednesday": "Miércoles",
+  "thursday": "Jueves",
+  "friday": "Viernes",
+  "saturday": "Sabado",
+  "sunday": "Domingo",
+  "closed": "Cerrado",
+
+  "rdv_title": "Concierte una cita cuando la necesite",
+  "rdv_txt": "Concierte una cita las 24 horas del día, los 7 días de la semana desde su computadora, tableta o teléfono celular. Concierte una cita en línea con su médico de cabecera ahora.",
+  "rdv_button": "Haga una cita*",
+  "vision_button": "Notre vision"
+
+}
