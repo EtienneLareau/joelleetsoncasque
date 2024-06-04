@@ -21,7 +21,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '',
+        content: 'La page web de Joëlle White',
       },
       { name: 'robots', content: 'index,follow' },
       { name: 'theme-color', content: '#7faa86' },
