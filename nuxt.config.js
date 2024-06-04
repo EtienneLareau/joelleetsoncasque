@@ -26,10 +26,10 @@ export default {
       { name: 'robots', content: 'index,follow' },
       { name: 'theme-color', content: '#7faa86' },
       { name: 'generator', content: 'VueJs' },
-      {
-        name: 'google-site-verification',
-        content: '-ySZ0bHIa-gI_bDNTZnGfs8MySFGpiqb2zl0UBg44yw',
-      },
+      // {
+      //   name: 'google-site-verification',
+      //   content: '-ySZ0bHIa-gI_bDNTZnGfs8MySFGpiqb2zl0UBg44yw',
+      // },
 
       // {
       //   name: 'apple-mobile-web-app-title',
@@ -92,16 +92,16 @@ export default {
 
   components: true,
 
-  modules: [
-    [
-      'nuxt-gmaps',
-      {
-        key: 'AIzaSyBwXxzaei5fTLc6Fl1lcBtGpV2WGoi_X9I',
-        //you can use libraries: ['places']
-      },
-    ],
-    // '@nuxtjs/sitemap',
-  ],
+  // modules: [
+  //   [
+  //     'nuxt-gmaps',
+  //     {
+  //       key: 'AIzaSyBwXxzaei5fTLc6Fl1lcBtGpV2WGoi_X9I',
+  //       //you can use libraries: ['places']
+  //     },
+  //   ],
+  //   // '@nuxtjs/sitemap',
+  // ],
 
   buildModules: [
     '@nuxtjs/sanity',
@@ -135,18 +135,18 @@ export default {
     ],
   ],
 
-  sitemap: {
-    hostname: 'https://cliniqueipsdequartier.com/',
-    gzip: true,
-    exclude: [
-      '/vendor',
-      '/vendor/**',
-      '/category',
-      '/category/**',
-      '/journal',
-      '/journal/**',
-    ],
-  },
+  // sitemap: {
+  //   hostname: 'https://cliniqueipsdequartier.com/',
+  //   gzip: true,
+  //   exclude: [
+  //     '/vendor',
+  //     '/vendor/**',
+  //     '/category',
+  //     '/category/**',
+  //     '/journal',
+  //     '/journal/**',
+  //   ],
+  // },
 
   robots: {
     UserAgent: '*',
