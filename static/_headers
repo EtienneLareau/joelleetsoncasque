@@ -4,6 +4,6 @@
  Referrer-Policy: no-referrer
  X-Content-Type-Options: nosniff
  X-Frame-Options: SAMEORIGIN
- Permissions-Policy: geolocation=(self "https://cliniqueipsdequartier.com/"), microphone=(), accelerometer=(), autoplay=(), camera=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), usb=()
+ Permissions-Policy: geolocation=(self "https://joelleetsoncasque.ca/"), microphone=(), accelerometer=(), autoplay=(), camera=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), usb=()
 
  

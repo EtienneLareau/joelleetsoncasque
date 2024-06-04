@@ -21,7 +21,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'La page web de Joëlle White',
+        content: "La page web de Joëlle White et de son casque d'or",
       },
       { name: 'robots', content: 'index,follow' },
       { name: 'theme-color', content: '#333333' },
@@ -75,10 +75,10 @@ export default {
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
       { rel: 'shortcut icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href: 'https://use.typekit.net/nbb1hvi.css',
-      },
+      // {
+      //   rel: 'stylesheet',
+      //   href: 'https://use.typekit.net/nbb1hvi.css',
+      // },
     ],
   },
 
