@@ -47,7 +47,7 @@ export default {
       },
       {
         property: 'og:image',
-        content: 'https://joelleetsoncasque.ca/jo-to-the-top.jpg',
+        content: 'https://joelleetsoncasque.ca/social.jpg',
       },
       { property: 'og:image:alt', content: "Joëlle White et son casque d'or" },
       { name: 'msapplication-TileImage', content: '/mstile-150x150.png' },
