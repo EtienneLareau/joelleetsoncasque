@@ -33,7 +33,8 @@ export default {
       },
       { name: 'application-name', content: "Joëlle White et son casque d'or" },
       // { property: 'fb:app_id', content: '100089456949770' },
-      { property: 'og:url', content: 'https://joelleetsoncasque.ca' },
+      // Facebook
+      { property: 'og:url', content: 'https://joelleetsoncasque.ca/' },
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: "Joëlle White et son casque d'or" },
       {
@@ -52,6 +53,20 @@ export default {
       { property: 'og:image:alt', content: "Joëlle White et son casque d'or" },
       { name: 'msapplication-TileImage', content: '/mstile-150x150.png' },
       { name: 'msapplication-TileColor', content: '#ffc40d' },
+
+      //Twitter Meta Tags
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { property: 'twitter:domain', content: 'joelleetsoncasque.ca' },
+      { property: 'twitter:url', content: 'https://joelleetsoncasque.ca/' },
+      { name: 'twitter:title', content: "Joëlle White et son casque d'or" },
+      {
+        name: 'twitter:description',
+        content: "Joëlle White et son casque d'or",
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://joelleetsoncasque.ca/social.jpg',
+      },
     ],
 
     link: [
